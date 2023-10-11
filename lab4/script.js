@@ -19,8 +19,8 @@ const account1 = {
     '2020-03-08T14:11:59.604Z',
     '2020-03-12T10:51:36.790Z',
   ],
-  currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  currency: 'USD',
+  locale: 'en-US', // de-DE
 };
 
 const account2 = {
@@ -42,8 +42,27 @@ const account2 = {
   currency: 'USD',
   locale: 'en-US',
 };
+const account3 = {
+  owner: 'Trinh Duc',
+  movements: [250, 455.23, -275.5, 20000, -642.21, -133.9, 79.97, 1250],
+  interestRate: 1.2, // %
+  pin: 1111,
 
-const accounts = [account1, account2];
+  movementsDates: [
+    '2019-01-28T09:15:04.904Z',
+    '2019-04-01T10:17:24.185Z',
+    '2019-05-27T17:01:17.194Z',
+    '2019-07-11T23:36:17.929Z',
+    '2019-11-18T21:31:17.178Z',
+    '2019-12-23T07:42:02.383Z',
+    '2020-03-08T14:11:59.604Z',
+    '2020-03-12T10:51:36.790Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US', // de-DE
+};
+
+const accounts = [account1, account2, account3];
 
 //////////////////////////////////////////////////////////////////
 // APP
